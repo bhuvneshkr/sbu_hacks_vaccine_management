@@ -7,10 +7,3 @@ vaccine_blueprint = Blueprint('vaccine_blueprint', __name__, url_prefix="/vaccin
 @vaccine_blueprint.route('/')
 def index():
     return "This is COVID-19 vaccine management app"
-
-
-@vaccine_blueprint.route('/log', methods=['POST','GET'])
-def index1():
-    return "rwreweww"
-
-
